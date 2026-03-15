@@ -1,0 +1,475 @@
+[
+{
+"image":"https://images.unsplash.com/photo-1611605698335-8b1569810432?w=400&h=400&fit=crop",
+"title":"QuickChat",
+"companyName":"ConnectSoft",
+"id":1,
+"description":"QuickChat is a modern messaging application designed for fast and secure communication. It allows users to send instant messages, voice notes, images and documents easily. The app includes end-to-end encryption to protect user privacy. Group chats, emoji reactions and voice calls make conversations more interactive. QuickChat is optimized for low data usage so it works smoothly even on slower networks. Millions of users rely on QuickChat for both personal and professional communication.",
+"size":45,
+"reviews":2300,
+"ratingAvg":4.5,
+"downloads":500000,
+"ratings":[
+{"name":"1 star","count":40},
+{"name":"2 star","count":70},
+{"name":"3 star","count":200},
+{"name":"4 star","count":900},
+{"name":"5 star","count":1090}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=400&fit=crop",
+"title":"PhotoMaster",
+"companyName":"Pixel Studio",
+"id":2,
+"description":"PhotoMaster is a powerful photo editing app for both beginners and professionals. It provides hundreds of filters, presets and color adjustment tools. Users can remove backgrounds, retouch portraits and enhance images using AI technology. The app also includes collage maker and creative stickers for social media posts. Editing tools are easy to use but still powerful enough for advanced editing. PhotoMaster helps users turn ordinary photos into stunning visual artwork.",
+"size":80,
+"reviews":3200,
+"ratingAvg":4.7,
+"downloads":800000,
+"ratings":[
+{"name":"1 star","count":30},
+{"name":"2 star","count":60},
+{"name":"3 star","count":250},
+{"name":"4 star","count":1100},
+{"name":"5 star","count":1760}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop",
+"title":"FitTrack",
+"companyName":"Healthify Labs",
+"id":3,
+"description":"FitTrack helps users maintain a healthy lifestyle by tracking workouts and daily activities. It records steps, calories burned and exercise duration automatically. Users can set fitness goals and monitor their progress with detailed charts. The app also provides personalized workout plans and health tips. Integration with wearable devices makes activity tracking more accurate. FitTrack motivates users to stay active and achieve their fitness targets.",
+"size":52,
+"reviews":1500,
+"ratingAvg":4.3,
+"downloads":400000,
+"ratings":[
+{"name":"1 star","count":60},
+{"name":"2 star","count":90},
+{"name":"3 star","count":220},
+{"name":"4 star","count":600},
+{"name":"5 star","count":530}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=400&fit=crop",
+"title":"TaskFlow",
+"companyName":"Productive Inc",
+"id":4,
+"description":"TaskFlow is a productivity application designed to organize daily work and tasks efficiently. Users can create to-do lists, set reminders and manage project deadlines easily. The app supports team collaboration so members can share tasks and progress updates. Smart notifications ensure that important work is never missed. TaskFlow also provides visual progress charts to track productivity. It is perfect for students, freelancers and professionals who want better time management.",
+"size":35,
+"reviews":1800,
+"ratingAvg":4.4,
+"downloads":300000,
+"ratings":[
+{"name":"1 star","count":50},
+{"name":"2 star","count":80},
+{"name":"3 star","count":210},
+{"name":"4 star","count":700},
+{"name":"5 star","count":760}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1511376777868-611b54f68947?w=400&h=400&fit=crop",
+"title":"MusicWave",
+"companyName":"SoundSphere",
+"id":5,
+"description":"MusicWave is a streaming platform that gives access to millions of songs from around the world. Users can explore trending music, create playlists and follow their favorite artists. The app recommends songs based on listening habits and preferences. Offline listening allows users to enjoy music without internet connection. High quality audio streaming ensures a great listening experience. MusicWave is the perfect companion for music lovers everywhere.",
+"size":60,
+"reviews":4100,
+"ratingAvg":4.6,
+"downloads":1000000,
+"ratings":[
+{"name":"1 star","count":90},
+{"name":"2 star","count":120},
+{"name":"3 star","count":400},
+{"name":"4 star","count":1500},
+{"name":"5 star","count":1990}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=400&fit=crop",
+"title":"Learnify",
+"companyName":"EduTech Global",
+"id":6,
+"description":"Learnify is an online learning platform offering courses in programming, design, marketing and more. Each course includes video lectures, quizzes and practical projects. Users can track their learning progress and earn certificates after completion. Expert instructors ensure high quality educational content. The app supports offline lessons for flexible learning anytime. Learnify helps students and professionals upgrade their skills effectively.",
+"size":70,
+"reviews":2100,
+"ratingAvg":4.5,
+"downloads":600000,
+"ratings":[
+{"name":"1 star","count":70},
+{"name":"2 star","count":100},
+{"name":"3 star","count":250},
+{"name":"4 star","count":800},
+{"name":"5 star","count":880}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=400&fit=crop",
+"title":"WeatherNow",
+"companyName":"SkyData",
+"id":7,
+"description":"WeatherNow provides accurate weather forecasts and real-time weather updates. Users can check temperature, humidity, wind speed and rainfall predictions. Interactive maps show weather conditions across different regions. The app also sends alerts for storms and extreme weather events. A clean interface makes weather information easy to understand. WeatherNow helps users plan their day with confidence.",
+"size":28,
+"reviews":900,
+"ratingAvg":4.2,
+"downloads":200000,
+"ratings":[
+{"name":"1 star","count":40},
+{"name":"2 star","count":60},
+{"name":"3 star","count":120},
+{"name":"4 star","count":360},
+{"name":"5 star","count":320}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=400&h=400&fit=crop",
+"title":"ShopEase",
+"companyName":"Global Mart",
+"id":8,
+"description":"ShopEase is a convenient online shopping application for everyday needs. Users can browse thousands of products including electronics, clothing and groceries. Secure payment options make purchasing simple and reliable. Real time order tracking keeps customers updated about delivery status. Special discounts and deals help users save money. ShopEase makes online shopping quick and enjoyable.",
+"size":95,
+"reviews":5000,
+"ratingAvg":4.4,
+"downloads":2000000,
+"ratings":[
+{"name":"1 star","count":200},
+{"name":"2 star","count":250},
+{"name":"3 star","count":700},
+{"name":"4 star","count":1800},
+{"name":"5 star","count":2050}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1531346680769-a1d79b57de5c?w=400&h=400&fit=crop",
+"title":"NoteKeeper",
+"companyName":"SmartApps",
+"id":9,
+"description":"NoteKeeper is a simple yet powerful note taking application. Users can create text notes, voice notes and checklist reminders. Notes can be organized using folders and color tags. Cloud synchronization ensures that notes are accessible on all devices. The app also supports password protection for private notes. NoteKeeper helps users capture ideas and stay organized every day.",
+"size":22,
+"reviews":1100,
+"ratingAvg":4.3,
+"downloads":350000,
+"ratings":[
+{"name":"1 star","count":30},
+{"name":"2 star","count":60},
+{"name":"3 star","count":170},
+{"name":"4 star","count":420},
+{"name":"5 star","count":420}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop",
+"title":"TravelMate",
+"companyName":"TripWorld",
+"id":10,
+"description":"TravelMate helps travelers plan trips and discover new destinations. Users can search for hotels, restaurants and tourist attractions. The app includes travel guides and local recommendations. Booking options for flights and hotels are available in one place. Offline maps help travelers navigate even without internet. TravelMate makes travel planning simple and stress free.",
+"size":65,
+"reviews":2400,
+"ratingAvg":4.5,
+"downloads":700000,
+"ratings":[
+{"name":"1 star","count":70},
+{"name":"2 star","count":110},
+{"name":"3 star","count":300},
+{"name":"4 star","count":900},
+{"name":"5 star","count":1020}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop",
+"title":"FoodDash",
+"companyName":"FastDelivery Ltd",
+"id":11,
+"description":"FoodDash allows users to order food from nearby restaurants quickly. The app offers a wide variety of cuisines and meal options. Real time delivery tracking shows exactly when food will arrive. Secure payments and easy checkout make ordering simple. Customers can rate restaurants and share reviews. FoodDash delivers delicious meals right to your doorstep.",
+"size":50,
+"reviews":3900,
+"ratingAvg":4.6,
+"downloads":1500000,
+"ratings":[
+{"name":"1 star","count":100},
+{"name":"2 star","count":150},
+{"name":"3 star","count":500},
+{"name":"4 star","count":1500},
+{"name":"5 star","count":1650}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=400&fit=crop",
+"title":"GameHub",
+"companyName":"PlayVerse",
+"id":12,
+"description":"GameHub is a platform where users can discover and play popular mobile games. The app recommends games based on user interests and ratings. Players can compete with friends and track achievements. New games are added regularly to keep the experience fresh. The platform also includes community features for sharing tips. GameHub brings all your favorite games together in one place.",
+"size":120,
+"reviews":4200,
+"ratingAvg":4.4,
+"downloads":2500000,
+"ratings":[
+{"name":"1 star","count":160},
+{"name":"2 star","count":220},
+{"name":"3 star","count":700},
+{"name":"4 star","count":1600},
+{"name":"5 star","count":1520}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=400&fit=crop",
+"title":"SecureVault",
+"companyName":"CyberSafe",
+"id":13,
+"description":"SecureVault is a password manager that keeps all login credentials safe. It uses strong encryption to protect sensitive information. Users can store passwords, credit card details and personal notes securely. Automatic password generator creates strong passwords instantly. The app supports biometric login for quick access. SecureVault ensures online security for everyday users.",
+"size":40,
+"reviews":800,
+"ratingAvg":4.6,
+"downloads":180000,
+"ratings":[
+{"name":"1 star","count":15},
+{"name":"2 star","count":30},
+{"name":"3 star","count":90},
+{"name":"4 star","count":320},
+{"name":"5 star","count":345}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
+"title":"BudgetBuddy",
+"companyName":"FinTrack",
+"id":14,
+"description":"BudgetBuddy helps users manage personal finances and track expenses. Users can categorize spending and set monthly budgets. Visual charts show how money is spent across categories. The app also reminds users about upcoming bills and payments. Financial reports provide insights for better money management. BudgetBuddy makes budgeting simple and effective.",
+"size":30,
+"reviews":1200,
+"ratingAvg":4.4,
+"downloads":420000,
+"ratings":[
+{"name":"1 star","count":40},
+{"name":"2 star","count":60},
+{"name":"3 star","count":200},
+{"name":"4 star","count":480},
+{"name":"5 star","count":420}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1543269865-cbf427effbad?w=400&h=400&fit=crop",
+"title":"LanguagePro",
+"companyName":"LinguaTech",
+"id":15,
+"description":"LanguagePro is an interactive language learning application. It teaches vocabulary, grammar and pronunciation through engaging lessons. Users can practice speaking using voice recognition technology. Daily challenges help learners stay motivated and consistent. Progress tracking shows improvement over time. LanguagePro makes learning new languages fun and effective.",
+"size":75,
+"reviews":2600,
+"ratingAvg":4.7,
+"downloads":900000,
+"ratings":[
+{"name":"1 star","count":50},
+{"name":"2 star","count":80},
+{"name":"3 star","count":300},
+{"name":"4 star","count":1000},
+{"name":"5 star","count":1170}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=400&fit=crop",
+"title":"DocScanner",
+"companyName":"ScanTech",
+"id":16,
+"description":"DocScanner transforms your smartphone into a powerful portable scanner. Users can quickly scan documents, receipts and notes with high clarity. The app automatically detects edges and enhances the scanned image quality. Documents can be exported as PDF or image files instantly. Cloud storage integration allows users to save files securely online. DocScanner is perfect for students, professionals and office work.",
+"size":38,
+"reviews":1700,
+"ratingAvg":4.4,
+"downloads":450000,
+"ratings":[
+{"name":"1 star","count":40},
+{"name":"2 star","count":80},
+{"name":"3 star","count":220},
+{"name":"4 star","count":720},
+{"name":"5 star","count":640}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=400&fit=crop",
+"title":"MindRelax",
+"companyName":"Wellness Studio",
+"id":17,
+"description":"MindRelax is a meditation and mindfulness application designed to reduce stress. It provides guided meditation sessions for beginners and experienced users. Relaxing sounds and breathing exercises help improve mental health. The app includes sleep stories and calming music for better sleep quality. Daily reminders encourage users to maintain a meditation routine. MindRelax helps users achieve peace and mental balance.",
+"size":55,
+"reviews":1400,
+"ratingAvg":4.5,
+"downloads":380000,
+"ratings":[
+{"name":"1 star","count":30},
+{"name":"2 star","count":60},
+{"name":"3 star","count":200},
+{"name":"4 star","count":550},
+{"name":"5 star","count":560}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=400&h=400&fit=crop",
+"title":"CryptoTrack",
+"companyName":"BlockTech",
+"id":18,
+"description":"CryptoTrack helps users monitor cryptocurrency prices and market trends. It supports hundreds of digital currencies including Bitcoin and Ethereum. Real time charts and price alerts keep users updated instantly. Portfolio tracking allows investors to monitor their investments easily. Market news and analysis help users make informed decisions. CryptoTrack is a useful tool for both beginners and experienced crypto traders.",
+"size":48,
+"reviews":2100,
+"ratingAvg":4.3,
+"downloads":600000,
+"ratings":[
+{"name":"1 star","count":70},
+{"name":"2 star","count":110},
+{"name":"3 star","count":300},
+{"name":"4 star","count":820},
+{"name":"5 star","count":800}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=400&h=400&fit=crop",
+"title":"RecipeBook",
+"companyName":"Kitchen Labs",
+"id":19,
+"description":"RecipeBook provides thousands of delicious recipes from around the world. Users can search recipes by ingredients, cuisine or cooking time. Step by step instructions make cooking simple for beginners. The app also includes nutrition information for healthy eating. Users can save favorite recipes and create their own cooking collections. RecipeBook turns everyday cooking into a fun experience.",
+"size":42,
+"reviews":1600,
+"ratingAvg":4.4,
+"downloads":420000,
+"ratings":[
+{"name":"1 star","count":45},
+{"name":"2 star","count":70},
+{"name":"3 star","count":240},
+{"name":"4 star","count":650},
+{"name":"5 star","count":595}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=400&fit=crop",
+"title":"StudyPlanner",
+"companyName":"EduFocus",
+"id":20,
+"description":"StudyPlanner helps students organize study schedules and manage academic tasks. Users can create daily study plans and set reminders for assignments. Progress tracking allows students to monitor completed topics. The app includes focus timers and productivity tools. Simple design makes studying more organized and efficient. StudyPlanner is ideal for school and university students.",
+"size":27,
+"reviews":1300,
+"ratingAvg":4.5,
+"downloads":360000,
+"ratings":[
+{"name":"1 star","count":35},
+{"name":"2 star","count":55},
+{"name":"3 star","count":210},
+{"name":"4 star","count":520},
+{"name":"5 star","count":480}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=400&fit=crop",
+"title":"NewsPulse",
+"companyName":"MediaHub",
+"id":21,
+"description":"NewsPulse delivers the latest news from trusted sources worldwide. Users can explore categories such as technology, sports, politics and business. Personalized recommendations show news based on reading interests. Offline reading allows users to save articles for later. Push notifications keep users informed about breaking news. NewsPulse helps users stay updated anytime and anywhere.",
+"size":33,
+"reviews":1900,
+"ratingAvg":4.2,
+"downloads":500000,
+"ratings":[
+{"name":"1 star","count":90},
+{"name":"2 star","count":140},
+{"name":"3 star","count":360},
+{"name":"4 star","count":700},
+{"name":"5 star","count":610}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1493238792000-8113da705763?w=400&h=400&fit=crop",
+"title":"CarCare",
+"companyName":"AutoTech",
+"id":22,
+"description":"CarCare helps vehicle owners track maintenance and service schedules. Users can log fuel usage, repairs and service history easily. Reminder notifications ensure timely oil changes and inspections. Expense tracking helps users manage car related costs. The app also provides tips for better vehicle maintenance. CarCare helps drivers keep their vehicles in excellent condition.",
+"size":36,
+"reviews":1000,
+"ratingAvg":4.3,
+"downloads":260000,
+"ratings":[
+{"name":"1 star","count":25},
+{"name":"2 star","count":60},
+{"name":"3 star","count":200},
+{"name":"4 star","count":400},
+{"name":"5 star","count":315}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&h=400&fit=crop",
+"title":"ArtSketch",
+"companyName":"CreativeWorks",
+"id":23,
+"description":"ArtSketch is a digital drawing and painting application for creative users. It provides various brushes, colors and canvas options. Artists can create illustrations, sketches and digital artwork easily. Layer support and editing tools allow more advanced design work. The app also includes tutorials for beginner artists. ArtSketch helps users express their creativity through digital art.",
+"size":68,
+"reviews":1500,
+"ratingAvg":4.6,
+"downloads":480000,
+"ratings":[
+{"name":"1 star","count":30},
+{"name":"2 star","count":50},
+{"name":"3 star","count":220},
+{"name":"4 star","count":520},
+{"name":"5 star","count":680}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400&h=400&fit=crop",
+"title":"LanguageChat",
+"companyName":"GlobalTalk",
+"id":24,
+"description":"LanguageChat connects people from different countries to practice languages together. Users can chat, voice call and exchange messages with native speakers. Built in translation tools help beginners communicate easily. The app offers community groups for language learning discussions. Daily challenges help users practice vocabulary and conversation. LanguageChat makes language learning interactive and social.",
+"size":58,
+"reviews":1750,
+"ratingAvg":4.5,
+"downloads":520000,
+"ratings":[
+{"name":"1 star","count":45},
+{"name":"2 star","count":70},
+{"name":"3 star","count":260},
+{"name":"4 star","count":700},
+{"name":"5 star","count":675}
+]
+},
+
+{
+"image":"https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=400&fit=crop",
+"title":"HomeWorkout",
+"companyName":"FitLife",
+"id":25,
+"description":"HomeWorkout provides effective workout routines that can be done without gym equipment. Users can follow guided exercise videos and training plans. The app includes workouts for strength, cardio and flexibility. Progress tracking shows calories burned and completed sessions. Daily workout reminders help users stay consistent. HomeWorkout helps people stay fit and healthy at home.",
+"size":46,
+"reviews":2100,
+"ratingAvg":4.6,
+"downloads":750000,
+"ratings":[
+{"name":"1 star","count":55},
+{"name":"2 star","count":90},
+{"name":"3 star","count":320},
+{"name":"4 star","count":820},
+{"name":"5 star","count":815}
+]
+}
+]
