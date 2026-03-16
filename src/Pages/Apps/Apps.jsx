@@ -13,7 +13,7 @@ const Apps = () => {
                 <h1 className='text-xs text-gray-400'>Explore All Apps on the Market developed by us. We code for Millions</h1>
             </div>
 
-            <div className='flex justify-between items-center p-5'>
+            <div className='flex gap-4 flex-col-reverse md:flex-row justify-between items-center p-5'>
                 <h1 className='text-2xl font-bold text-gray-700'>({appsData.length}) App Found</h1>
                 <div className='flex relative'>
                      <Search size={20} className='absolute left-3 top-1/2 -translate-y-1/2 text-gray-400'  />

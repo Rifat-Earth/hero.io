@@ -5,11 +5,14 @@ import Home from '../../Pages/Home/Home';
 import Apps from '../../Pages/Apps/Apps';
 import Installation from '../../Pages/Installation/Installation';
 import axios from 'axios';
+import Error from '../../Pages/Error/Error';
+
 
 export const router = createBrowserRouter([
     {
         path: "/",
         Component: Root,
+        errorElement: <Error />,
         children: [
             {
                 index: true,
@@ -24,15 +27,18 @@ export const router = createBrowserRouter([
             {
                 path: 'apps',
                 loader: async () => {
-                const res  = await axios.get("/app.json")
-                return res.data          
+                    const res = await axios.get("/app.json")
+                    return res.data
                 },
                 Component: Apps
             },
             {
                 path: "installation",
                 Component: Installation
-            }
+            },
+
         ]
+
     },
+
 ]);
