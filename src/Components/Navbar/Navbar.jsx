@@ -1,14 +1,14 @@
 
 import { TbBrandGithubFilled } from 'react-icons/tb';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import logo from "../../assets/logo.png"
 
 const Navbar = () => {
 
     const links = <>
-    <NavLink to='/' className={({isActive})=> isActive? "text-[#632EE3] underline  font-bold":"font-bold "}>Home</NavLink>
-     <NavLink to="/apps" className={({isActive})=> isActive? "text-[#632EE3] font-bold underline":"font-bold"}>Apps</NavLink>
-      <NavLink to="/installation" className={({isActive})=> isActive? "text-[#632EE3] font-bold underline":"font-bold"}>Installation</NavLink>
+        <NavLink to='/' className={({ isActive }) => isActive ? "text-[#632EE3] underline  font-bold" : "font-bold "}>Home</NavLink>
+        <NavLink to="/apps" className={({ isActive }) => isActive ? "text-[#632EE3] font-bold underline" : "font-bold"}>Apps</NavLink>
+        <NavLink to="/installation" className={({ isActive }) => isActive ? "text-[#632EE3] font-bold underline" : "font-bold"}>Installation</NavLink>
 
     </>
     return (
@@ -21,10 +21,10 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                       {links}
+                        {links}
                     </ul>
                 </div>
-                <a className=" text-xl flex gap-1 justify-center items-center font-bold  text-[#632EE3]"><img className='w-8 h-8' src={logo} alt="image not found" />HERO.IO</a>
+                <Link to='/' className=" text-xl flex gap-1 justify-center items-center font-bold  text-[#632EE3]"><img className='w-8 h-8' src={logo} alt="image not found" />HERO.IO</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-4">
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href='' className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2]"> <span className= 'bg-white p-1 rounded-full'><TbBrandGithubFilled /></span> <span className='text-white'>Contribute</span></a>
+                <a href='https://github.com/Rifat-Earth/hero.io' target='_blank' className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2]"> <span className='bg-white p-1 rounded-full'><TbBrandGithubFilled /></span> <span className='text-white'>Contribute</span></a>
             </div>
         </div>
     );
