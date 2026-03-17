@@ -4,6 +4,7 @@ import ratingLogo from "../../assets/icon-ratings.png"
 import downloadsLogo from "../../assets/icon-downloads.png"
 import reviewsLogo from "../../assets/icon-review.png"
 import Chart from '../../Components/Chart/Chart';
+import { addToStore } from '../../Components/Utility/addToLocal';
 
 
 
@@ -14,6 +15,10 @@ const AppDetails = () => {
     const appData = useLoaderData()
     const detailsData = appData.find(details => details.id === appId)
     const { image,title, companyName, ratingAvg, downloads,reviews,ratings,description } = detailsData
+
+    const handleInstallBtn = (appId) =>{
+        addToStore(appId)
+    }
 
     return (
         <div className=''>
@@ -45,7 +50,7 @@ const AppDetails = () => {
                     </div>
                     
                 </div>
-                 <button className='btn bg-[#00D390] text-white mt-2'>Install Now (291 MB)</button>
+                 <button onClick={()=>handleInstallBtn(appId)} className='btn bg-[#00D390] text-white mt-2'>Install Now (291 MB)</button>
                 </div>
                
             </div>

@@ -40,8 +40,8 @@ const Footer = () => {
                 <h6 className="footer-title text-[#632EE3]">Get in Touch</h6>
                 <div className='flex gap-4'>
                     <a href='https://www.youtube.com/' target='_blank' className="link link-hover"><Youtube size={42} color="#e60a0a" /></a>
-                    <a href='' className="link link-hover"><Github size={42} color="#131111" /></a>
-                    <a href="" className="link link-hover"><Linkedin size={42} color="#1a20c1" /></a>
+                    <a href='https://github.com/' target='_blank' className="link link-hover"><Github size={42} color="#131111" /></a>
+                    <a href="https://www.linkedin.com/" target='_blank' className="link link-hover"><Linkedin size={42} color="#1a20c1" /></a>
                 </div>
             </nav>
         </footer>

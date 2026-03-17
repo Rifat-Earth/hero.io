@@ -35,14 +35,18 @@ export const router = createBrowserRouter([
             },
             {
                 path: "installation",
+                loader: async () => {
+                    const res = await axios.get("/app.json")
+                    return res.data
+                },
                 Component: Installation
             },
             {
                 path: "appDetails/:id",
-                loader: async () => { 
+                loader: async () => {
                     const res = await axios.get("/app.json")
                     return res.data
-                 },
+                },
                 Component: AppDetails
             },
             {
