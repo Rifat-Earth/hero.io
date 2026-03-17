@@ -1,11 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import App from './App';
 import { Search } from 'lucide-react';
+import AppError from '../Error/AppError';
 
 const Apps = () => {
     const appsData = useLoaderData()
-   
+    const [search, setSearch] = useState("")
+
+    const searchText = search.trim().toLowerCase()
+
+    const searchApps = appsData.filter(app => (
+        app.title?.toLowerCase().includes(searchText) ||
+        app.companyName?.toLowerCase().includes(searchText) ||
+        app.description?.toLowerCase().includes(searchText)
+    ));
+
+    if (search && searchApps.length === 0)
+        return (<>
+            <AppError />
+        </>)
+
+    // console.log(searchApps);
+
     return (
         <div className='bg-base-200 py-5'>
             <div className='flex justify-center items-center flex-col gap-4 py-5'>
@@ -14,21 +31,22 @@ const Apps = () => {
             </div>
 
             <div className='flex gap-4 flex-col-reverse md:flex-row justify-between items-center p-5'>
-                <h1 className='text-2xl font-bold text-gray-700'>({appsData.length}) App Found</h1>
+                <h1 className='text-2xl font-bold text-gray-700'>({(search ? searchApps : appsData).length}) App Found</h1>
                 <div className='flex relative'>
-                     <Search size={20} className='absolute left-3 top-1/2 -translate-y-1/2 text-gray-400'  />
-                    <input className='p-2 border-1 pl-10 pr-4  outline-[#9F62F2] rounded-lg' type="text"  placeholder=' search' />
-                   
+                    <Search size={20} className='absolute left-3 top-1/2 -translate-y-1/2 text-gray-400' />
+                    <input className='p-2 border-1 pl-10 pr-4  outline-[#9F62F2] rounded-lg' type="text" placeholder=' search apps' value={search} onChange={(e) => setSearch(e.target.value)} />
+
                 </div>
-               
+
             </div>
             <div className='py-5 grid grid-cols-1 md:grid-cols-4 gap-4'>
 
                 {
-                  appsData.map(app=> <App app={app} key={app.id}></App>)
+                    (search ? searchApps : appsData).map(app => <App app={app} key={app.id}></App>)
                 }
 
             </div>
+
         </div>
     );
 };

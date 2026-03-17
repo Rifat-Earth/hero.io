@@ -471,5 +471,275 @@
 {"name":"4 star","count":820},
 {"name":"5 star","count":815}
 ]
+},
+{
+"image":"https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=400&fit=crop",
+"title":"CodeMaster",
+"companyName":"DevHub",
+"id":26,
+"description":"CodeMaster is a complete coding learning platform for beginners and advanced developers. It offers interactive lessons in JavaScript, Python, and web development. Users can practice with real-world coding challenges and quizzes. The app provides instant feedback and explanations for mistakes. Progress tracking helps users stay motivated throughout their journey. CodeMaster makes programming easy and engaging.",
+"size":58,
+"reviews":2400,
+"ratingAvg":4.7,
+"downloads":82,
+"ratings":[
+{"name":"1 star","count":60},
+{"name":"2 star","count":95},
+{"name":"3 star","count":300},
+{"name":"4 star","count":900},
+{"name":"5 star","count":1045}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=400&h=400&fit=crop",
+"title":"TravelMate",
+"companyName":"WanderTech",
+"id":27,
+"description":"TravelMate helps users plan trips and discover new destinations easily. It provides travel guides, hotel suggestions, and local attractions. Users can create itineraries and manage bookings in one place. Offline maps and navigation features make travel stress-free. The app also offers travel tips and safety advice. TravelMate is perfect for explorers and adventurers.",
+"size":64,
+"reviews":1800,
+"ratingAvg":4.5,
+"downloads":70,
+"ratings":[
+{"name":"1 star","count":70},
+{"name":"2 star","count":110},
+{"name":"3 star","count":350},
+{"name":"4 star","count":650},
+{"name":"5 star","count":620}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=400&h=400&fit=crop",
+"title":"TechNews",
+"companyName":"InfoStream",
+"id":28,
+"description":"TechNews delivers the latest updates from the world of technology. Users can read news on gadgets, AI, startups, and software trends. Personalized feeds show content based on user interests. Push notifications ensure users never miss important updates. Articles are short, informative, and easy to read. TechNews keeps users informed and updated daily.",
+"size":35,
+"reviews":1600,
+"ratingAvg":4.4,
+"downloads":68,
+"ratings":[
+{"name":"1 star","count":65},
+{"name":"2 star","count":100},
+{"name":"3 star","count":320},
+{"name":"4 star","count":580},
+{"name":"5 star","count":535}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+"title":"MusicStream",
+"companyName":"SoundWave",
+"id":29,
+"description":"MusicStream is a modern music streaming app with millions of songs. Users can create playlists and discover trending tracks. The app supports offline listening and high-quality audio. Personalized recommendations enhance the listening experience. It also features podcasts and live radio channels. MusicStream brings endless entertainment for music lovers.",
+"size":72,
+"reviews":3000,
+"ratingAvg":4.8,
+"downloads":95,
+"ratings":[
+{"name":"1 star","count":50},
+{"name":"2 star","count":80},
+{"name":"3 star","count":250},
+{"name":"4 star","count":900},
+{"name":"5 star","count":1720}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=400&fit=crop",
+"title":"DevNotes",
+"companyName":"CodeBase",
+"id":30,
+"description":"DevNotes is a note-taking app designed for developers and students. It supports code snippets, markdown formatting, and syntax highlighting. Users can organize notes into folders and categories. Cloud sync ensures data is safe and accessible everywhere. The app also allows sharing notes with teammates. DevNotes improves productivity for coding and learning.",
+"size":40,
+"reviews":1200,
+"ratingAvg":4.6,
+"downloads":55,
+"ratings":[
+{"name":"1 star","count":40},
+{"name":"2 star","count":70},
+{"name":"3 star","count":220},
+{"name":"4 star","count":450},
+{"name":"5 star","count":420}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400&h=400&fit=crop",
+"title":"PhotoEditorX",
+"companyName":"PixelPro",
+"id":31,
+"description":"PhotoEditorX is a powerful photo editing app with advanced tools. Users can apply filters, adjust colors, and enhance images easily. The app includes AI-based editing features for quick improvements. Users can crop, rotate, and add text or stickers. High-resolution export ensures quality output. PhotoEditorX makes editing fun and professional.",
+"size":66,
+"reviews":2100,
+"ratingAvg":4.7,
+"downloads":88,
+"ratings":[
+{"name":"1 star","count":55},
+{"name":"2 star","count":85},
+{"name":"3 star","count":260},
+{"name":"4 star","count":780},
+{"name":"5 star","count":920}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=400&fit=crop",
+"title":"EduLearn",
+"companyName":"SmartStudy",
+"id":32,
+"description":"EduLearn provides online courses for students and professionals. It offers video lessons, quizzes, and assignments. Users can learn at their own pace and track progress. Certificates are provided after course completion. The app supports multiple subjects and skill levels. EduLearn makes education accessible and flexible.",
+"size":52,
+"reviews":1750,
+"ratingAvg":4.5,
+"downloads":72,
+"ratings":[
+{"name":"1 star","count":60},
+{"name":"2 star","count":95},
+{"name":"3 star","count":300},
+{"name":"4 star","count":700},
+{"name":"5 star","count":595}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=400&fit=crop",
+"title":"FinanceTracker",
+"companyName":"MoneyWise",
+"id":33,
+"description":"FinanceTracker helps users manage their income and expenses efficiently. It provides detailed reports and spending insights. Users can set budgets and financial goals. The app supports multiple accounts and currencies. Secure data encryption keeps information safe. FinanceTracker promotes better financial habits.",
+"size":38,
+"reviews":1400,
+"ratingAvg":4.4,
+"downloads":60,
+"ratings":[
+{"name":"1 star","count":70},
+{"name":"2 star","count":110},
+{"name":"3 star","count":280},
+{"name":"4 star","count":520},
+{"name":"5 star","count":420}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=400&h=400&fit=crop",
+"title":"TaskFlow",
+"companyName":"WorkSmart",
+"id":34,
+"description":"TaskFlow is a productivity app for managing tasks and projects. Users can create to-do lists and set deadlines. Collaboration features allow teams to work together efficiently. Notifications remind users of important tasks. The app provides a clean and user-friendly interface. TaskFlow boosts productivity and organization.",
+"size":34,
+"reviews":1300,
+"ratingAvg":4.5,
+"downloads":58,
+"ratings":[
+{"name":"1 star","count":50},
+{"name":"2 star","count":80},
+{"name":"3 star","count":250},
+{"name":"4 star","count":500},
+{"name":"5 star","count":420}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=400&fit=crop",
+"title":"RecipeBook",
+"companyName":"Foodies",
+"id":35,
+"description":"RecipeBook offers a wide range of recipes from different cuisines. Users can search recipes by ingredients or category. Step-by-step instructions make cooking easy. The app includes nutritional information for each dish. Users can save favorite recipes for later use. RecipeBook inspires cooking creativity.",
+"size":45,
+"reviews":1100,
+"ratingAvg":4.3,
+"downloads":52,
+"ratings":[
+{"name":"1 star","count":60},
+{"name":"2 star","count":90},
+{"name":"3 star","count":260},
+{"name":"4 star","count":420},
+{"name":"5 star","count":270}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400&h=400&fit=crop",
+"title":"WeatherNow",
+"companyName":"ClimateTech",
+"id":36,
+"description":"WeatherNow provides real-time weather updates and forecasts. Users can check temperature, humidity, and wind conditions. The app offers hourly and weekly forecasts. Alerts notify users about severe weather conditions. A simple interface makes information easy to understand. WeatherNow helps users plan their day better.",
+"size":28,
+"reviews":900,
+"ratingAvg":4.2,
+"downloads":50,
+"ratings":[
+{"name":"1 star","count":70},
+{"name":"2 star","count":100},
+{"name":"3 star","count":220},
+{"name":"4 star","count":300},
+{"name":"5 star","count":210}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1485217988980-11786ced9454?w=400&h=400&fit=crop",
+"title":"MapNavigator",
+"companyName":"GeoPath",
+"id":37,
+"description":"MapNavigator is a navigation app with accurate GPS tracking. It provides route suggestions and real-time traffic updates. Users can explore nearby places and landmarks. Offline maps ensure navigation without internet. Voice guidance helps during driving. MapNavigator makes traveling easier and safer.",
+"size":60,
+"reviews":2000,
+"ratingAvg":4.6,
+"downloads":85,
+"ratings":[
+{"name":"1 star","count":55},
+{"name":"2 star","count":90},
+{"name":"3 star","count":300},
+{"name":"4 star","count":700},
+{"name":"5 star","count":855}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=400&fit=crop",
+"title":"CodePlayground",
+"companyName":"DevLab",
+"id":38,
+"description":"CodePlayground allows users to write and test code online. It supports multiple programming languages and frameworks. Users can run code instantly without setup. The app includes tutorials and sample projects. Sharing code snippets with others is easy. CodePlayground is perfect for learning and experimenting.",
+"size":48,
+"reviews":1500,
+"ratingAvg":4.7,
+"downloads":65,
+"ratings":[
+{"name":"1 star","count":40},
+{"name":"2 star","count":70},
+{"name":"3 star","count":230},
+{"name":"4 star","count":520},
+{"name":"5 star","count":640}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=400&h=400&fit=crop",
+"title":"EventPlanner",
+"companyName":"PlanIt",
+"id":39,
+"description":"EventPlanner helps users organize and manage events easily. It allows creating schedules, guest lists, and reminders. Users can collaborate with others for event planning. Budget tracking helps control expenses. The app offers customizable templates for different events. EventPlanner makes event management simple and efficient.",
+"size":42,
+"reviews":1000,
+"ratingAvg":4.4,
+"downloads":48,
+"ratings":[
+{"name":"1 star","count":60},
+{"name":"2 star","count":85},
+{"name":"3 star","count":240},
+{"name":"4 star","count":400},
+{"name":"5 star","count":215}
+]
+},
+{
+"image":"https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=400&h=400&fit=crop",
+"title":"BookReader",
+"companyName":"Readify",
+"id":40,
+"description":"BookReader is a digital reading app for book lovers. It supports various formats including PDF and EPUB. Users can customize font size and background for comfortable reading. Bookmark and highlight features enhance the experience. The app includes a large library of free books. BookReader makes reading convenient and enjoyable.",
+"size":37,
+"reviews":1250,
+"ratingAvg":4.5,
+"downloads":57,
+"ratings":[
+{"name":"1 star","count":50},
+{"name":"2 star","count":80},
+{"name":"3 star","count":260},
+{"name":"4 star","count":480},
+{"name":"5 star","count":380}
+]
 }
 ]
