@@ -14,7 +14,7 @@ const AppDetails = () => {
     const appId = parseInt(id)   
     const appData = useLoaderData()
     const detailsData = appData.find(details => details.id === appId)
-    const { image,title, companyName, ratingAvg, downloads,reviews,ratings,description } = detailsData
+    const { image,title, companyName, ratingAvg, downloads,reviews,ratings,description,size } = detailsData
 
     const handleInstallBtn = (appId) =>{
         addToStore(appId)
@@ -50,7 +50,7 @@ const AppDetails = () => {
                     </div>
                     
                 </div>
-                 <button onClick={()=>handleInstallBtn(appId)} className='btn bg-[#00D390] text-white mt-2'>Install Now (291 MB)</button>
+                 <button onClick={()=>handleInstallBtn(appId)} className='btn bg-[#00D390] text-white mt-2'>Install Now ( {size} MB )</button>
                 </div>
                
             </div>

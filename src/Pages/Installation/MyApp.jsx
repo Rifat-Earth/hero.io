@@ -3,8 +3,11 @@ import React from 'react';
 import download from '../../assets/icon-downloads.png'
 import ratings from "../../assets/icon-ratings.png"
 
-const MyApp = ({ myApp }) => {
-    const { image, title, downloads, ratingAvg,size } = myApp
+const MyApp = ({ myApp,handleUninstall }) => {
+    const { image, title, downloads, ratingAvg,size,id } = myApp
+
+    
+
     return (
         <div className="card card-side p-4 bg-base-200 shadow-lg">
             <figure>
@@ -26,7 +29,7 @@ const MyApp = ({ myApp }) => {
                   </div>
                 </div>
             </div>
-            <button className='btn bg-green-400 p-4 text-white rounded-lg'>Uninstall</button>
+            <button onClick={()=> handleUninstall(id)} className='btn bg-green-400 p-4 text-white rounded-lg'>Uninstall</button>
         </div>
     );
 };

@@ -9,6 +9,8 @@ import MyApp from './MyApp';
 const Installation = () => {
 
     const [appList, setAppList] = useState([]);
+    const [sortOrder, setSortOrder] = useState("");
+   
 
     const appData = useLoaderData()
     // console.log(appData);
@@ -18,6 +20,23 @@ const Installation = () => {
         const myAppList = appData.filter(app => storeApp.includes(app.id))
         setAppList(myAppList)
     }, [appData])
+
+    const sortedApp = [...appList]?.sort((a, b) => {
+        if (sortOrder === "asc") {
+            return a.downloads - b.downloads
+        } else if (sortOrder === "desc") {
+            return b.downloads - a.downloads
+        } else {
+            return 0;
+        }
+    })
+
+    const handleUninstall = (id) => {
+        const DeleteApp = appList.filter(d => d.id != id)
+        setAppList(DeleteApp)
+        const storedApps = toGetData().filter(appid=>appid !== id)
+        localStorage.setItem("appList",JSON.stringify(storedApps))
+    }
 
     return (
         <div className='bg-base-200'>
@@ -32,15 +51,15 @@ const Installation = () => {
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn m-1 rounded-lg text-gray-600 border-gray-500">Sorted By Download<MdOutlineArrowDropDown size={30} /></div>
                     <ul tabIndex="-1" className="dropdown-content menu rounded-box bg-base-100 z-1 w-52 p-2 shadow-sm">
-                        <li className=''><a>High to Low</a></li>
-                        <li className=''><a>Low to High</a></li>
+                        <li onClick={() => setSortOrder("desc")} ><a>High to Low</a></li>
+                        <li onClick={() => setSortOrder("asc")} ><a>Low to High</a></li>
                     </ul>
                 </div>
             </div>
 
             <div className='flex flex-col gap-4 py-5'>
                 {
-                    appList?.map(myApp=> <MyApp myApp={myApp} key={myApp.id}></MyApp>)
+                    sortedApp?.map(myApp => <MyApp handleUninstall={handleUninstall} myApp={myApp} key={myApp.id}></MyApp>)
                 }
             </div>
         </div>
