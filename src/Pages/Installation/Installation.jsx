@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import Error from '../Error/Error';
-import AppError from '../Error/AppError';
 import { MdOutlineArrowDropDown } from 'react-icons/md';
 import { useLoaderData } from 'react-router';
 import { toGetData } from '../../Components/Utility/addToLocal';
 import MyApp from './MyApp';
+import Swal from 'sweetalert2';
+import { toast } from 'react-toastify';
 
 const Installation = () => {
 
     const [appList, setAppList] = useState([]);
     const [sortOrder, setSortOrder] = useState("");
-   
+
 
     const appData = useLoaderData()
     // console.log(appData);
@@ -32,10 +32,25 @@ const Installation = () => {
     })
 
     const handleUninstall = (id) => {
-        const DeleteApp = appList.filter(d => d.id != id)
-        setAppList(DeleteApp)
-        const storedApps = toGetData().filter(appid=>appid !== id)
-        localStorage.setItem("appList",JSON.stringify(storedApps))
+
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You want to uninstall this app!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#d33",
+            cancelButtonColor: "#6c757d",
+            confirmButtonText: "Yes, uninstall it!"
+        }).then((result) => {
+
+            if (result.isConfirmed) {
+                const DeleteApp = appList.filter(d => d.id != id)
+                setAppList(DeleteApp)
+                const storedApps = toGetData().filter(appid => appid !== id)
+                localStorage.setItem("appList", JSON.stringify(storedApps)) 
+                toast.success("App uninstalled successfully 🚀")     
+            }
+        })
     }
 
     return (

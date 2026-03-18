@@ -1,15 +1,28 @@
-const toGetData =()=>{
+import Swal from "sweetalert2";
+
+const toGetData = () => {
     const isData = localStorage.getItem("appList")
-    return isData?JSON.parse(isData): [] ;
+    return isData ? JSON.parse(isData) : [];
 }
 
-const addToStore =(id)=>{
+const addToStore = (id) => {
 
     const storeData = toGetData()
-    storeData.includes(id)? alert("already added this app"):storeData.push(id);
-     
+    if (storeData.includes(id)) {
+        Swal.fire({
+            text: "Already installed it?",
+            icon: "error"
+        })
+        return
+    }
+    storeData.push(id);
     const data = JSON.stringify(storeData)
-    localStorage.setItem("appList",data)
+    localStorage.setItem("appList", data)
+    Swal.fire({
+        title: "Good job!",
+        text: "installed app successfully!",
+        icon: "success"
+    });
 }
 
-export {toGetData,addToStore}
+export { toGetData, addToStore }
