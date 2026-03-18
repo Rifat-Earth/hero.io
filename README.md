@@ -1,12 +1,42 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HERO.IO
 
-Currently, two official plugins are available:
+HERO.IO is a web application where users can find and explore their desired apps easily.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*** Built With 
 
-## Expanding the ESLint configuration
+1. React
+2. JavaScript
+3. Tailwind css
+4. DaisyUi
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*** Packages Used
+
+   Axios – For API calls
+
+   Lucide React – For lightweight icons
+
+   React Icons – For additional icons
+
+   Recharts – For displaying charts
+
+   SweetAlert2 – For beautiful alert modals
+
+   React Toastify – For toast notifications
+
+***Major Functionality:
+
+1. implement search option in Apps page
+2. Implement sort by download count
+3. customize loader
+4. Load 40 app.json data and show on apps page
+5. show beautiful alert by sweetAlert2 and toaster
+6. toggling for install and unInstall button
+
+*** To run Locally
+
+1. **Clone the repository**  
+  git clone https://github.com/your-username/hero.io.git
+2. cd hero.io
+3. npm run dev (app will open at: http://localhost:5173/)
+4. if you want to build: npm run build
